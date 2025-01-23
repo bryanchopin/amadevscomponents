@@ -4,7 +4,7 @@ import { MdDeleteOutline } from 'react-icons/md';
 
 export default function BtnHoverDelete() {
   return (
-    <button onClick={()=>(alert("hola"))} className="group absolute flex items-center justify-start w-10 h-10 rounded-full cursor-pointer overflow-hidden border-2 border-white transition-all duration-500 shadow-[2px_2px_10px_rgba(0,0,0,0.199)] bg-red-500 hover:w-32 hover:rounded-full active:translate-x-0.5 active:translate-y-0.5">
+    <button className="group absolute flex items-center justify-start w-10 h-10 rounded-full cursor-pointer overflow-hidden border-2 border-white transition-all duration-500 shadow-[2px_2px_10px_rgba(0,0,0,0.199)] bg-red-500 hover:w-32 hover:rounded-full active:translate-x-0.5 active:translate-y-0.5">
       <div className="flex w-full items-center justify-center transition-all duration-500 group-hover:w-1/3">
         <MdDeleteOutline color="white" fontSize={"1.5em"} />
       </div>
